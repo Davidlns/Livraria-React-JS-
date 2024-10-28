@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ControleLivro from './controle/controleLivro';
+import ControleLivros from './controle/controleLivro';
 import ControleEditora from './controle/controleEditora';
 
-const controleLivro = new ControleLivro();
+const controleLivro = new ControleLivros();
 const controleEditora = new ControleEditora();
 
 const LivroDados = () => {
@@ -32,12 +32,9 @@ const LivroDados = () => {
       resumo,
       autores: autores.split('\n')
     };
-    console.log('Incluindo livro:', novoLivro); // Verifique os dados do novo livro
     controleLivro.incluir(novoLivro);
-    console.log('Lista de livros após inclusão:', controleLivro.obterLivros()); // Verifique a lista de livros após a inclusão
-    navigate('/'); // Redireciona para a página inicial
+    navigate('/');
   };
-  
 
   return (
     <main>

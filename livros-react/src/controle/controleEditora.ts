@@ -5,9 +5,9 @@ class ControleEditora {
 
   constructor() {
     this.editoras = [
-      new Editora(101, "Editora Alpha"),
-      new Editora(102, "Editora Beta"),
-      new Editora(103, "Editora Gamma")
+      new Editora(101, "Penguin Random House"),
+      new Editora(102, "HarperCollins"),
+      new Editora(103, "Hachette Livre")
     ];
   }
 
