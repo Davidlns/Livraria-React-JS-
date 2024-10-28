@@ -1,5 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+  background: linear-gradient(to right, black, #333333, #666666, #999999, #cccccc, gray);
+
 }
 
 main {
@@ -9,6 +11,7 @@ main {
 
 h1 {
   text-align: center;
+  color: #cccccc;
 }
 
 table {
@@ -25,10 +28,6 @@ th, td {
 
 th {
   background-color: #f4f4f4;
-}
-
-tr:nth-child(even) {
-  background-color: #f9f9f9;
 }
 
 button {
@@ -59,8 +58,7 @@ ul li {
 }
 
 thead tr th {
-  background-color: rgb(12, 12, 12);
-  color: white !important; 
+  background-color: rgb(255, 0, 0);
 }
 
 main h1{
@@ -69,4 +67,12 @@ main h1{
 }
 .btn{
   margin-top: 10px;
+}
+
+td{
+  background-color: rgba(145, 220, 243, 0.644);
+}
+
+label{
+  color: white;
 }

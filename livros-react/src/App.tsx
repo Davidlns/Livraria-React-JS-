@@ -13,10 +13,7 @@ function App() {
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/">Lista de Livros</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" to="/dados">Dados do Livro</Link>
+                <Link className="nav-link text-white" to="/dados">Adicionar Livro</Link>
               </li>
             </ul>
           </div>
